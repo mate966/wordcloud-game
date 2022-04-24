@@ -1,0 +1,61 @@
+.game {
+    text-align: center;
+}
+
+.board {
+    position: relative;
+    margin-top: 20px;
+    padding: 50px;
+    width: 700px;
+    min-height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    &--disabled {
+        pointer-events: none;
+    }
+}
+
+.word {
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style-type: none;
+    cursor: pointer;
+
+    &--selected {
+        color: grey;
+    }
+
+    &--good {
+        color: green;
+    }
+
+    &--bad {
+        color: red;
+    }
+}
+
+.word-result {
+    display: block;
+}
+
+$x: 0;
+$y: 0;
+
+@for $i from 1 through 100 {
+    .word:nth-child(#{$i}) {
+        left: $x + px;
+        top: $y + px;
+    }
+    $x: $x;
+    $y: $y + 20;
+}
+
+.error-msg {
+    margin-top: 10px;
+    font-size: 10px;
+    color: red;
+}

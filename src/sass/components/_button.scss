@@ -1,0 +1,15 @@
+.button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    background-color: transparent;
+    text-transform: lowercase;
+    color: dodgerblue;
+    cursor: pointer;
+
+    &:hover {
+        background-color: dodgerblue;
+        color: white;
+    }
+}
