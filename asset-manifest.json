@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wordcloud-game/static/css/main.5aeb5901.css",
+    "main.js": "/wordcloud-game/static/js/main.a8b58c0e.js",
+    "index.html": "/wordcloud-game/index.html",
+    "main.5aeb5901.css.map": "/wordcloud-game/static/css/main.5aeb5901.css.map",
+    "main.a8b58c0e.js.map": "/wordcloud-game/static/js/main.a8b58c0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5aeb5901.css",
+    "static/js/main.a8b58c0e.js"
+  ]
+}
